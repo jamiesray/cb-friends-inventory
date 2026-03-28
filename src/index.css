@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-gray-50 text-gray-900;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* html5-qrcode overrides */
+#barcode-reader video {
+  border-radius: 0.5rem;
+}
+#barcode-reader img {
+  display: none;
+}
