@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import toast from 'react-hot-toast'
-import { supabase, getSetting, setSetting } from '../lib/supabase'
+import { supabase, setSetting } from '../lib/supabase'
 import type { Book } from '../types'
 
 interface SettingsProps {
